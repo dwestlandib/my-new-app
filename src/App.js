@@ -6,6 +6,7 @@ function App() {
     <div className='container'>
       <h1>Title</h1>
       <h3>Sub Title</h3>
+      <hr />
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
@@ -15,11 +16,9 @@ function App() {
         occaecat cupidatat non proident, sunt in culpa qui officia deserunt
         mollit anim id est laborum.
       </p>
-
       <p>
-        This is a <a href='#'>Link</a>
+        This is a <a href='/'>Link</a>
       </p>
-      <code>This is some code</code>
     </div>
   );
 }

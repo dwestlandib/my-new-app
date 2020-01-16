@@ -1,4 +1,5 @@
 // Typography
+
 body {
   color: $text-color;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
@@ -32,11 +33,6 @@ a {
 a:hover {
   color: $dark-blue; }
 
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
-}
-
-.fine-print {
-  font-size: .8em;
+p {
+  line-height: 1.6em;
 }
