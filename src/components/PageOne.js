@@ -1,10 +1,9 @@
 import React from 'react';
-import './scss/main.scss';
 
-function App() {
+function PageOne() {
   return (
     <div className='container'>
-      <h1>Title</h1>
+      <h1>Page One</h1>
       <h3>Sub Title</h3>
       <hr />
       <p>
@@ -16,11 +15,8 @@ function App() {
         occaecat cupidatat non proident, sunt in culpa qui officia deserunt
         mollit anim id est laborum.
       </p>
-      <p>
-        This is a <a href='/'>Link</a>
-      </p>
     </div>
   );
 }
 
-export default App;
+export default PageOne;
